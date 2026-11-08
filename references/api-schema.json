@@ -1,0 +1,175 @@
+[
+  {
+    "path": "/generate",
+    "requestParams": [
+      {
+        "name": "image_base64",
+        "type": "string[]"
+      },
+      {
+        "name": "prompt",
+        "type": "string"
+      },
+      {
+        "name": "motion_type",
+        "type": "string"
+      },
+      {
+        "name": "pixel_size",
+        "type": "string"
+      },
+      {
+        "name": "seed",
+        "type": "number"
+      },
+      {
+        "name": "attack_type",
+        "type": "string"
+      },
+      {
+        "name": "noise_strength",
+        "type": "number"
+      },
+      {
+        "name": "length",
+        "type": "integer"
+      },
+      {
+        "name": "use_mid_image",
+        "type": "boolean"
+      },
+      {
+        "name": "use_end_image",
+        "type": "boolean"
+      },
+      {
+        "name": "use_padding",
+        "type": "boolean"
+      },
+      {
+        "name": "padding_position",
+        "type": "string"
+      },
+      {
+        "name": "scale_factor",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "path": "/generate-v2",
+    "requestParams": [
+      {
+        "name": "image_base64",
+        "type": "string[]"
+      },
+      {
+        "name": "prompt",
+        "type": "string"
+      },
+      {
+        "name": "pixel_size",
+        "type": "{ x: number; y: number }"
+      },
+      {
+        "name": "ai_expand",
+        "type": "boolean"
+      },
+      {
+        "name": "seed",
+        "type": "integer"
+      },
+      {
+        "name": "output_frames",
+        "type": "integer"
+      },
+      {
+        "name": "color_count",
+        "type": "integer"
+      },
+      {
+        "name": "use_mid_image",
+        "type": "boolean"
+      },
+      {
+        "name": "use_end_image",
+        "type": "boolean"
+      }
+    ]
+  },
+  {
+    "path": "/generate-character",
+    "requestParams": [
+      {
+        "name": "image_base64",
+        "type": "string[]"
+      },
+      {
+        "name": "prompt",
+        "type": "string"
+      },
+      {
+        "name": "pixel_size",
+        "type": "string"
+      },
+      {
+        "name": "style",
+        "type": "string"
+      },
+      {
+        "name": "domain_color",
+        "type": "string | string[]"
+      }
+    ]
+  },
+  {
+    "path": "/generate-item",
+    "requestParams": [
+      {
+        "name": "image_base64",
+        "type": "string[]"
+      },
+      {
+        "name": "prompt",
+        "type": "string"
+      },
+      {
+        "name": "pixel_size",
+        "type": "string"
+      },
+      {
+        "name": "style",
+        "type": "string"
+      },
+      {
+        "name": "domain_color",
+        "type": "string | string[]"
+      }
+    ]
+  },
+  {
+    "path": "/generate-map",
+    "requestParams": [
+      {
+        "name": "image_base64",
+        "type": "string[]"
+      },
+      {
+        "name": "prompt",
+        "type": "string"
+      },
+      {
+        "name": "style",
+        "type": "string"
+      },
+      {
+        "name": "bg_style",
+        "type": "string"
+      },
+      {
+        "name": "domain_color",
+        "type": "string | string[]"
+      }
+    ]
+  }
+]

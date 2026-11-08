@@ -1,0 +1,12 @@
+{
+  "image_base64": [],
+  "params": {
+    "prompt": "a misty forest ruin with mossy stone platforms",
+    "style": "Retro",
+    "bg_style": "Parallax",
+    "domain_color": [
+      "#315c3b",
+      "#91b66e"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "image_base64": [],
+  "params": {
+    "prompt": "fixed side view, the knight thrusts the spear and returns to the starting pose",
+    "pixel_size": {
+      "x": 256,
+      "y": 128
+    },
+    "ai_expand": true,
+    "seed": 123456,
+    "output_frames": 24,
+    "color_count": 64,
+    "use_mid_image": true,
+    "use_end_image": true
+  }
+}

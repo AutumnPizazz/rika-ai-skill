@@ -1,0 +1,13 @@
+{
+  "image_base64": [],
+  "params": {
+    "prompt": "side-view, 2D game character walking",
+    "motion_type": "walk",
+    "pixel_size": "128",
+    "seed": 123456,
+    "noise_strength": 0.6,
+    "length": 25,
+    "use_mid_image": false,
+    "use_end_image": false
+  }
+}

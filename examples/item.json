@@ -1,0 +1,12 @@
+{
+  "image_base64": [],
+  "params": {
+    "prompt": "an ornate brass mechanical compass",
+    "pixel_size": "128",
+    "style": "Retro",
+    "domain_color": [
+      "#d9a441",
+      "#543019"
+    ]
+  }
+}

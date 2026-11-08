@@ -1,0 +1,12 @@
+{
+  "image_base64": [],
+  "params": {
+    "prompt": "a cyberpunk hero with a neon sword",
+    "pixel_size": "128",
+    "style": "Anime",
+    "domain_color": [
+      "#ff0000",
+      "#00ff00"
+    ]
+  }
+}
